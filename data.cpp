@@ -577,9 +577,9 @@ void DataManager::SetDefaultValues()
 	mConst.SetValue("false", "0");
 
 	mConst.SetValue(TW_VERSION_VAR, TW_VERSION_STR);
-	mPersist.SetValue("tw_button_vibrate", "80");
-	mPersist.SetValue("tw_keyboard_vibrate", "40");
-	mPersist.SetValue("tw_action_vibrate", "160");
+	mPersist.SetValue("tw_button_vibrate", "0");
+	mPersist.SetValue("tw_keyboard_vibrate", "0");
+	mPersist.SetValue("tw_action_vibrate", "0");
 
 	TWPartition *store = PartitionManager.Get_Default_Storage_Partition();
 	if (store)
